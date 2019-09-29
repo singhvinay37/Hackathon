@@ -1,6 +1,6 @@
-Hackathon - Pro Kabaddi League
+# Hackathon - Pro Kabaddi League
 
-Introduction:
+# Introduction:
 
 Pro Kabaddi League is a professional-level kabaddi league that started in 2014. Currently, the League is in its 7th season, which started on 20 July 2019 with the first match between U Mumba and Telugu Titans. The final match will be played on 19 October 2019.
 In this hackathon, task is to use coding and analytics skills to predict various outcomes at the end of the tournament.
@@ -21,7 +21,7 @@ Task 6: Predict the player with the highest SUCCESSFUL RAID percentage.
 
 Task 7: Predict the player with the highest SUCCESSFUL TACKLE percentage.
 
-Approach:
+# Approach:
 
 We've scraped data from multiple websites comprising of details of each team’s history in the season 5, season 6 and season 7 and have scraped the details of the fixtures of 2019 PRO kabaddi league as well. We stored the above piece of data in four separate csv files.
 
@@ -35,7 +35,7 @@ Datasets were manually modified to include a row called “Team Value.” Team V
 
 The first 3 teams on the standing were assigned a value of 5. The next four were assigned 4. The next four after that got a value of 3. Last four teams before relegation zone were assigned 2. Similar players were assigned a value based on their performnce in current and previous seasons.
 
-Environment and tools:
+# Environment and tools:
 
 Jupyter Notebook
 
@@ -55,10 +55,12 @@ Matplotlib
 
 Scikit-learn
 
-Websites used for Data Extract:
+# Websites used for Data Extract:
 
 https://www.prokabaddi.com/
 
 https://www.mykhel.com/kabaddi/pro-kabaddi/
+
+# Modeling:
 
 Random forest and Linear regression was used to predict the outcome.
